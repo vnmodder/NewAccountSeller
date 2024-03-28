@@ -27,7 +27,7 @@ namespace AccountSeller.Application.Information.Queries.GetInformationList
         {
             try
             {
-                var result = await _dbContext.InformationTables.Select(x => new Information()
+                var result = await _dbContext.InformationTables.Where(x=>x.IsDeleted == false).Select(x => new Information()
                 {
                     FullName = x.FullName,
                     TotalMoney = x.TotalMoney,
