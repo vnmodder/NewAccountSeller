@@ -139,4 +139,8 @@ Please contact your system administrator.</value>
     <comment>Could not connect to database.
 Please contact your system administrator.</comment>
   </data>
+  <data name="EM104" xml:space="preserve">
+    <value>Không thể thêm mới một thông tin vào bảng</value>
+    <comment>Can not insert new Information</comment>
+  </data>
 </root>

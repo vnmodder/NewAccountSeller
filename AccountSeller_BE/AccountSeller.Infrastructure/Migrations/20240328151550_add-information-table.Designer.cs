@@ -4,6 +4,7 @@ using AccountSeller.Infrastructure.Databases.AccountSellerDB;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AccountSeller.Infrastructure.Migrations
 {
     [DbContext(typeof(AccountSellerDbContext))]
-    partial class AccountSellerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240328151550_add-information-table")]
+    partial class addinformationtable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

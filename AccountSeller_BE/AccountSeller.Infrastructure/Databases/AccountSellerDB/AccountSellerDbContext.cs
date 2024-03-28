@@ -21,6 +21,7 @@ namespace AccountSeller.Infrastructure.Databases.AccountSellerDB
         #region DbSet declarations.
         public virtual DbSet<User> UserTables { get; set; }
         public virtual DbSet<Test> TestTables { get; set; }
+        public virtual DbSet<Information> InformationTables { get; set; }
         #endregion
 
         #region PORE Database Views

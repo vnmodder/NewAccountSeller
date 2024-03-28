@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "KeySee": {
+    "AccountSeller": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -61,6 +61,15 @@ namespace AccountSeller.Domain.Messages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Can not delete this information.
+        /// </summary>
+        public static string VM006 {
+            get {
+                return ResourceManager.GetString("VM006", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Create. Is it OK?.
         /// </summary>
         public static string WM0001 {

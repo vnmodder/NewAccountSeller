@@ -105,5 +105,14 @@ namespace AccountSeller.Domain.Messages {
                 return ResourceManager.GetString("EM0103", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Không thể thêm mới một thông tin vào bảng.
+        /// </summary>
+        public static string EM104 {
+            get {
+                return ResourceManager.GetString("EM104", resourceCulture);
+            }
+        }
     }
 }
